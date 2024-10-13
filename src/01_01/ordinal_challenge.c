@@ -10,13 +10,13 @@ char *ordinal(int v)
 	switch (v % 10)
 	{
 	case 1:
-		return "st";
+		return "st" ;break;
 	case 2:
-		return "nd";
+		return "nd";break;
 	case 3:
-		return "rd";
+		return "rd";break;
 	default:
-		return "th";
+		return "th";break;
 	}
 }
 
